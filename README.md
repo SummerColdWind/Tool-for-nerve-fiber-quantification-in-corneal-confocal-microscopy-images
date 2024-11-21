@@ -1,4 +1,4 @@
-<h1 align="center">QCCM</h1>
+<h1 align="center">QCCMetrics</h1>
 <p align="center">
     <img height="200" width="200" src="assets/icon.webp">
 </p>
