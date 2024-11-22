@@ -15,7 +15,7 @@
 
 ```shell
 conda create -n qccm python=3.8
-conda activate qccm
+conda activate aiccm
 pip install -r requirements.txt
 ```
 
