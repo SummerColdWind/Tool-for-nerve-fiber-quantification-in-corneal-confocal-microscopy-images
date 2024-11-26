@@ -44,7 +44,10 @@ class Processor:
 
 
     def load_image(self, path):
-        image = load_image(path)
+        if isinstance(path, str):
+            image = load_image(path)
+        else:
+            image = path
         image = image[:384, :384]
         self.image = image
         self.segments = []

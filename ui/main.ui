@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AiCCMetrics</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="ImageWindow">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>384</width>
+      <height>384</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-color: black;
+    border: 1px solid white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="LogWindow">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>384</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>404</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="FileMenu">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+   </widget>
+   <widget class="QMenu" name="AnalysisMenu">
+    <property name="title">
+     <string>Analysis</string>
+    </property>
+    <addaction name="actionProcess"/>
+   </widget>
+   <widget class="QMenu" name="PlotMenu">
+    <property name="title">
+     <string>Plot</string>
+    </property>
+    <addaction name="actionShow_origin"/>
+    <addaction name="actionDraw_bone"/>
+    <addaction name="actionDraw_body"/>
+    <addaction name="actionDraw_binary"/>
+   </widget>
+   <widget class="QMenu" name="ToolMenu">
+    <property name="title">
+     <string>Tool</string>
+    </property>
+    <addaction name="actionBatch_processing"/>
+   </widget>
+   <widget class="QMenu" name="HelpMenu">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_us"/>
+   </widget>
+   <widget class="QMenu" name="SettingMenu">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <addaction name="actionLanguage"/>
+   </widget>
+   <addaction name="FileMenu"/>
+   <addaction name="AnalysisMenu"/>
+   <addaction name="PlotMenu"/>
+   <addaction name="ToolMenu"/>
+   <addaction name="SettingMenu"/>
+   <addaction name="HelpMenu"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionLanguage">
+   <property name="text">
+    <string>Language</string>
+   </property>
+  </action>
+  <action name="actionAbout_us">
+   <property name="text">
+    <string>About us</string>
+   </property>
+  </action>
+  <action name="actionBatch_processing">
+   <property name="text">
+    <string>Batch processing</string>
+   </property>
+  </action>
+  <action name="actionProcess">
+   <property name="text">
+    <string>Process</string>
+   </property>
+  </action>
+  <action name="actionDraw_bone">
+   <property name="text">
+    <string>Draw bone</string>
+   </property>
+  </action>
+  <action name="actionDraw_body">
+   <property name="text">
+    <string>Draw body</string>
+   </property>
+  </action>
+  <action name="actionDraw_binary">
+   <property name="text">
+    <string>Draw binary</string>
+   </property>
+  </action>
+  <action name="actionShow_origin">
+   <property name="text">
+    <string>Show origin</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

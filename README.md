@@ -1,6 +1,6 @@
 <h1 align="center">AiCCMetrics</h1>
 <p align="center">
-    <img height="200" width="200" src="assets/icon.webp">
+    <img height="200" width="200" src="assets/icon.png">
 </p>
 <p align="center">
     <a href=""><img src="https://img.shields.io/badge/Python-3.8-3776AB.svg" alt="Python 3.8"></a>
